@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "name": "sms-templater",
+  "description": "SMS Templates",
+  "launch_path": "/index.html",
+  "type": "certified",
+
+
+  "icons": {
+    "56": "/icons/icon-56-56.png",
+    "112": "/icons/icon-112-112.png"
+  },
+	
+  "developer": {
+    "name": "strukturart",
+    "url": "https://strukturart.com"
+  },
+
+
+
+  "permissions": {
+
+  "device-storage:sdcard": {
+  "description": "Read from sd-card",
+  "access": "readonly"
+  },
+
+	"spatialnavigation-app-manage": {
+	"navigator.spatialNavigationEnabled": false
+	}
+
+  }
+
+}
